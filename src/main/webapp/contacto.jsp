@@ -12,7 +12,7 @@
 
 <hr/>
 
-<a style="color: white;" href="index.jsp">Inicio | </a>
+<a style="color: white;" href="home.jsp">Inicio | </a>
 <a style="color: white;" href="calificaciones.jsp">Calificaciones | </a>
 <a style="color: white;" href="horarios.jsp">Horarios | </a>
 <a style="color: white;" href="contacto.jsp">Contacto | </a>

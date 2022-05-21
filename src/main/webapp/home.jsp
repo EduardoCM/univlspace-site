@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Acerca De</title>
+<title>Home</title>
 </head>
 <body background="imagenes/viaLacteaDos.jpeg">
 
@@ -18,9 +18,9 @@
 <a style="color: white;" href="contacto.jsp">Contacto | </a>
 <a style="color: white;" href="acerca.jsp">Acerca de Nosotros</a>
 
-<hr/>
+<hr />
 
-<h2 style="color: white;">Informacion sobre la plataforma</h2>
+<h2 style="color: white;"> Bienvenido a tu plataforma de la Universidad Nacional Intergalactica</h2>
 
 </body>
 </html>

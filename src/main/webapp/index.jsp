@@ -1,26 +1,58 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Home</title>
 </head>
-<body background="imagenes/viaLacteaDos.jpeg">
+<body background="imagenes/espacio.jpeg">
 
-<h1 style="color: white;"> Plataforma Digital para aprendices de la Universidad Nacional Intergalactica de la Via Láctea (UNIVL) </h1>
+	<h2 style="color: white;">Login</h2>
 
-<hr/>
+<form action="login" method="post">
+	<table>
 
-<a style="color: white;" href="index.jsp">Inicio | </a>
-<a style="color: white;" href="calificaciones.jsp">Calificaciones | </a>
-<a style="color: white;" href="horarios.jsp">Horarios | </a>
-<a style="color: white;" href="contacto.jsp">Contacto | </a>
-<a style="color: white;" href="acerca.jsp">Acerca de Nosotros</a>
+		<tr>
+			<td><Label style="color: white;">Usuario</Label></td>
+			<td><input type="text" name="usuario"></td>
+		</tr>
 
-<hr />
+		<tr>
+			<td><Label style="color: white;">Password</Label></td>
+			<td><input type="password" name="password"></td>
 
-<h2 style="color: white;"> Bienvenido a tu plataforma de la Universidad Nacional Intergalactica</h2>
+		</tr>
+
+		<tr>
+			<td><Label></Label></td>
+			<td><button type="submit">Entrar</button></td>
+		</tr>
+
+	</table>
+</form>
+
+	<table>
+
+		<tr>
+			<td><label style="color: white;"> ${respuesta} </label></td>
+			<td></td>
+		</tr>
+
+
+		<tr>
+			<td style="color: white;"><a href="creaCuenta.jsp">Crea cuenta nueva</a></td>
+			<td style="color: white;"><a href="recuperar.jsp">Recuperar Password</a></td>
+		</tr>
+
+		<tr>
+			<td style="color: white;"><a href="#">Entrar con cuenta de Facebook</a></td>
+			<td style="color: white;"><a href="#">Entrar con cuenta de Google</a></td>
+		</tr>
+	</table>
+
+
 
 </body>
 </html>
