@@ -16,7 +16,7 @@ import space.univl.util.Constants;
 
 public class EmailService {
 	
-	private static final String SERVLET = "http://localhost:9080/Consultor-Plataformas-Digitales-01/activar";
+	private static final String SERVLET = "http://0832-177-241-178-240.ngrok.io/UNIVL/activar";
 	
 	public void sendMail(String nombreCompleto, String email) {
 		

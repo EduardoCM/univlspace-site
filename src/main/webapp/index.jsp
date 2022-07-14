@@ -5,9 +5,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
+<title>Login</title>
 </head>
-<body background="imagenes/espacio.jpeg">
+<body background="imagenes/tierra2.jpeg">
 
 	<h2 style="color: white;">Login</h2>
 

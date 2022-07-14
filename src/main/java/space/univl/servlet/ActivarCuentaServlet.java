@@ -25,7 +25,7 @@ public class ActivarCuentaServlet extends HttpServlet {
 		usuarioDB.activarCuenta(email);
 		
 		req.setAttribute("respuesta", "Cuenta activada de forma exitosa");
-		req.getRequestDispatcher("home.jsp").forward(req, resp);
+		req.getRequestDispatcher("index.jsp").forward(req, resp);
 	}
 	
 
